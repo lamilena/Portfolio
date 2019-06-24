@@ -185,10 +185,12 @@ header {
 
 .logo {
   margin-top: -37vw;
+  z-index: 5;
 }
 
 .logo img {
-  width: 3vw;
+  width: 30vw;
+    z-index: 5;
 }
 
 .decoration_1 img{
@@ -690,7 +692,7 @@ footer {
 }
 
 .footer_text1 li{
-   padding-top: 1vw;
+   padding-top: 0vw;
 
    list-style-type: none;
 
@@ -714,7 +716,7 @@ footer {
 }
 
 .footer_text2 li {
-    padding-top: 1vw;
+    padding-top: 0vw;
 
     list-style-type: none;
 
@@ -723,6 +725,23 @@ footer {
     font-family: "Akrobat-SemiBold";
     font-size: 50px;
 }
+
+.footer_text1 h1 {
+    color: white;
+    font-family: "Akrobat-SemiBold";
+    font-size: 30px;
+    margin-left: 31vw;
+    margin-bottom: 1vw;
+}
+
+.footer_text2 h1 {
+  color: white;
+  font-family: "Akrobat-SemiBold";
+  font-size: 30px;
+  margin-left: -12vw;
+  margin-bottom: 1vw;
+}
+
 
 
 @media all and (min-width: 1025px) and (max-width: 1440px){
@@ -921,12 +940,37 @@ footer {
 }
 
 .footer_text1 li {
-  font-size: 30px;
-  margin-left: 11vw;
+  font-size: 16px;
+  margin-left: 31vw;
 }
 
 .footer_text2 li {
-  font-size: 30px;
+  font-size: 16px;
+  margin-left: -12vw;
+}
+
+.footer_text1 h1 {
+  color: white;
+}
+
+.footer_text2 {
+   margin-left: 87vw;
+}
+
+.footer_text1 {
+  margin-left: 30vw;
+}
+
+.footer_text3 {
+    margin-left: 42vw;
+    margin-right: 53vw;
+    margin-top: 5vw;
+}
+
+.footer_text3 h1 {
+  color: white;
+  font-family: "Akrobat-SemiBold";
+  font-size: 16px;
   margin-left: -12vw;
 }
 
@@ -947,6 +991,15 @@ footer {
     margin-top: -14vw;
     margin-left: 73vw;
 }
+
+.moon img {
+    position: absolute;
+    width: 26vw;
+    margin-top: 11vw;
+    margin-left: 2vw;
+}
+
+
 
 
 
