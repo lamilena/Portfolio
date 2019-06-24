@@ -2,26 +2,26 @@
   font-family: "Akrobat-Bold";
   font-weight: bold;
 
-  src: url("stylesheets/fonts/Akrobat-Bold.woff — копия") format("woff");
+  src: url("fonts/Akrobat-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: "Akrobat-Regular";
   font-weight: bold;
 
-  src: url("stylesheets/fonts/Akrobat-Regular.woff — копия") format("woff");
+  src: url("fonts/Akrobat-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Akrobat-SemiBold";
   font-weight: bold;
 
-  src: url("stylesheets/fonts/Akrobat-SemiBold.woff — копия") format("woff");
+  src: url("fonts/Akrobat-SemiBold.woff") format("woff");
 }
 
   @font-face {
     font-family: "Akrobat-Light";
     font-weight: bold;
 
-    src: url("stylesheets/fonts/Akrobat-Light.woff — копия") format("woff");
+    src: url("fonts/Akrobat-Light.woff") format("woff");
 }

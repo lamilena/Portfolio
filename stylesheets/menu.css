@@ -34,10 +34,11 @@
    display: flex;
 
    width: 105vw;
-   height: 60px;
+   height: 2vw;
    margin-left: -100vw;
    padding: 1rem;
 
+   opacity: 0.9;
    background: black;
 
    align-items: center;
@@ -168,4 +169,11 @@
   text-decoration: none;
 
   color: inherit;
+}
+
+@media all and (min-width: 1025px) and (max-width: 1440px){
+.menu-wrap .menu >div >div >ul >li {
+  font-size: 35px;
+}
+
 }
