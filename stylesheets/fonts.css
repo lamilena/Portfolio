@@ -18,3 +18,10 @@
 
   src: url("stylesheets/fonts/Akrobat-SemiBold.woff — копия") format("woff");
 }
+
+  @font-face {
+    font-family: "Akrobat-Light";
+    font-weight: bold;
+
+    src: url("stylesheets/fonts/Akrobat-Light.woff — копия") format("woff");
+}
