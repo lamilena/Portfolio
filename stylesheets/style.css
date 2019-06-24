@@ -1,0 +1,266 @@
+@import "layout.css";
+
+* {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+   /* overflow: hidden; */
+}
+
+header {
+   overflow: hidden;
+
+   height: 63vw;
+}
+
+.picrures_header img {
+    width: 80vw;
+    margin-top: 22vw;
+    margin-left: 12vw;
+
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle {
+   0% { transition:rotate(0deg);}
+   30% {transition:rotate(90deg);}
+   50% {transition:rotate(0deg);}
+   80%{transition:rotate(-90deg);}
+}
+
+.text_header_left {
+   display: flex;
+   flex-direction: column;
+
+   margin-top: -87vw;
+   margin-left: 10vw;
+
+   color: black;
+}
+
+.header_p1 {
+    margin-top: -4vw;
+    padding-bottom: 2vw;
+
+    font-family: "Akrobat-Bold";
+    font-size: 188px;
+}
+
+.header_p2 {
+   margin-left: 1vw;
+
+   color: #353238;
+
+   font-family: "Akrobat-SemiBold";
+   font-size: 75px;
+}
+
+.text_header_right {
+    display: flex;
+    flex-direction: column;
+
+    width: 290px;
+    margin-top: -9vw;
+    margin-left: 83vw;
+
+    color: black;
+
+    align-items: flex-start;
+}
+
+.header_p3 {
+    margin-top: -2vw;
+    padding-bottom: 2vw;
+
+    font-family: "Akrobat-SemiBold";
+    font-size: 45px;
+}
+
+.header_p4 {
+   color: #353238;
+
+   font-family: "Akrobat-Regular";
+   font-size: 27px;
+   line-height: 35px;
+}
+
+.header_p5 {
+   color: #353238;
+
+   font-family: "Akrobat-Regular";
+   font-size: 27px;
+   line-height: 35px;
+}
+
+.header_p6 {
+   color: #353238;
+
+   font-family: "Akrobat-Regular";
+   font-size: 27px;
+   line-height: 35px;
+}
+
+.text_header_right2 {
+    display: flex;
+    flex-direction: column;
+
+    width: 290px;
+    margin-top: 5vw;
+    margin-left: 83vw;
+
+    color: black;
+
+    font-family: "Akrobat-Regular";
+
+    align-items: flex-start;
+}
+
+.numbers {
+   position: relative;
+   z-index: 2;
+
+   display: flex;
+
+   margin-top: 12vw;
+
+   justify-content: center;
+   align-items: center;
+}
+
+.numbers a {
+   z-index: 2;
+
+   padding: 9vw;
+
+   text-decoration: none;
+
+   color: black;
+
+   font-family: "Akrobat-Bold";
+   font-size: 260px;
+}
+
+.numbers p {
+  z-index: 2;
+
+  padding-left: 8vw;
+
+  font-family: "Akrobat-Regular";
+  font-size: 60px;
+}
+
+.logo {
+  margin-top: -37vw;
+}
+
+.logo img {
+  width: 3vw;
+}
+
+.decoration_1 img {
+    position: relative;
+    z-index: 1;
+
+    width: 29vw;
+    margin-top: 1vw;
+    margin-left: 11vw;
+
+    opacity: 0.7;
+}
+
+.decoration_1 img{
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation: animationFrames linear 7s infinite;
+  -moz-animation: animationFrames linear 7s infinite;
+  -ms-animation: animationFrames linear 7s infinite;
+  -o-animation: animationFrames linear 7s infinite;
+  animation: animationFrames linear 7s infinite;
+  animation-direction: alternate;
+  /* -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1; */
+}
+
+@keyframes animationFrames {
+   0% {
+     transform: translate(-10vw,-12vw) rotate(0deg);
+   }
+
+   51% {
+     transform: translate(18vw,-12vw) rotate(20deg);
+   }
+   100% {
+     transform: translate(65vw,-12vw) rotate(50deg);
+   }
+}
+
+/* @-moz-keyframes animationFrames{
+  0% {
+    -moz-transform:  translate(-300px,0px)  ;
+  }
+  51% {
+    -moz-transform:  translate(250px,-2px)  ;
+  }
+  100% {
+    -moz-transform:  translate(250px,-2px)  ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    -webkit-transform:  translate(-300px,0px)  ;
+  }
+  51% {
+    -webkit-transform:  translate(250px,-2px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(250px,-2px)  ;
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    -o-transform:  translate(-300px,0px)  ;
+  }
+  51% {
+    -o-transform:  translate(250px,-2px)  ;
+  }
+  100% {
+    -o-transform:  translate(250px,-2px)  ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    -ms-transform:  translate(-300px,0px)  ;
+  }
+  51% {
+    -ms-transform:  translate(250px,-2px)  ;
+  }
+  100% {
+    -ms-transform:  translate(250px,-2px)  ;
+  }
+} */
+
+
+
+@media all and (min-width: 1025px) and (max-width: 1440px){
+
+  /* .footer_p1 {
+      margin-top: -3vw;
+      padding-bottom: 2vw;
+
+      font-size: 10px;
+  } */
+}
