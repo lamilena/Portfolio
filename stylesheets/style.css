@@ -1005,12 +1005,18 @@ footer {
 
 @media all and (min-width: 1024px) and (max-width: 1025px){
 
-  footer {
-    margin-top: 92vw;
-  }
   .header_p3 {
     margin-top: 2vw;
   }
+  footer {
+    margin-top: 8v0w;
+}
+.swing13 {
+ width: 64vw;
+ margin-top: 224vw;
+ margin-left: 24vw;
+}
+
 
 }
 
@@ -1020,6 +1026,7 @@ footer {
     width: 100vw;
      height: 134vw;
    }
+
 
    .pictures_header{
   margin-top: 200vw;
@@ -1099,12 +1106,11 @@ font-size: 20px;
 }
 
 .text {
-  margin-top: -250vw;
+    margin-top: -261vw;
 }
 
 .text h1 {
-    padding-top: 13vw;
-
+    padding-top: 24vw;
     font-size: 60px;
 }
 
@@ -1186,7 +1192,7 @@ font-size: 13px;
 
 .swing13 {
 width: 64vw;
-  margin-top: 232vw;
+      margin-top: 223vw;
 margin-left: 24vw;
 }
 
@@ -1200,6 +1206,14 @@ margin-left: 24vw;
     width: 6vw;
     margin-top: -83vw;
     margin-left: 92vw;
+}
+
+footer {
+    overflow: hidden;
+    width: 100vw;
+    height: 10vw;
+    margin-top: 50vw;
+    background-color: black;
 }
 }
 
