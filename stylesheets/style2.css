@@ -76,6 +76,16 @@
   font-size: 16px;
 }
 
+.photos_text a {
+    margin-right: 38vw;
+  margin-left: -3vw;
+
+  color: black;
+
+  font-family: "Akrobat-Regular";
+  font-size: 16px;
+}
+
 .page2_3 img {
   width: 65vw;
   padding-bottom: 20vw;
@@ -214,13 +224,52 @@
     opacity: 1;
 }
 
+.page2_text {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 87vw;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.page2_text p {
+    position: absolute;
+
+    margin-top: 17vw;
+    padding: 28vw;
+
+    color: black;
+
+    font-family: "Akrobat-SemiBold";
+    font-size: 30px;
+}
+
+.photos_page4 {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 35vw;
+
+  justify-content: center;
+  align-items: center;
+  }
+
+  .photos_page4 img {
+  width: 65vw;
+  padding-bottom: 15vw;
+  }
+
+
+
 .footer_pic1{
   position: absolute;
 
     display: flex;
     flex-direction: column;
 
-    margin-top: 100vw;
+    margin-top: 179vw;
 
     justify-content: center;
     align-items: center;
@@ -236,7 +285,7 @@ footer {
 
     width: 100vw;
     height: 10vw;
-    margin-top: 121vw;
+    margin-top: 17vw;
 
     background-color: black;
 }

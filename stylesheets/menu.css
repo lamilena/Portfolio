@@ -178,7 +178,15 @@
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px){
+
   .menu-wrap .hamburger{
-    margin-left: -236vw;
+    margin-left: -317vw;
   }
+  .menu-wrap {
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    right: -180vw;
+    /* margin-left: -1000vw; */
+}
 }
