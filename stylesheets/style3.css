@@ -68,7 +68,7 @@ footer {
 
     width: 100vw;
     height: 10vw;
-    margin-top: 60vw;
+    margin-top: 12vw;
 
     background-color: black;
 }
@@ -189,4 +189,18 @@ footer {
 .photos_page4 img {
    width: 30vw;
    padding: 2vw;
+}
+
+.photos_page5 {
+  margin-top: -24vw;
+}
+
+.photos_page5 img {
+  width: 64vw;
+    margin-top: 15vw;
+    margin-left: 18vw;
+}
+
+.foot_pic img {
+  width: 20vw;
 }
