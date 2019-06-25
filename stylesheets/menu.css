@@ -180,7 +180,7 @@
 @media all and (min-width: 768px) and (max-width: 1024px){
 
   .menu-wrap .hamburger{
-    margin-left: -317vw;
+    margin-left: -285vw;
   }
   .menu-wrap {
     position: fixed;

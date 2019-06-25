@@ -994,12 +994,25 @@ footer {
 }
 }
 
+@media all and (min-width: 1024px) and (max-width: 1025px){
+
+  footer {
+    margin-top: 92vw;
+  }
+  .header_p3 {
+    margin-top: 2vw;
+  }
+
+}
+
+
 @media all and (min-width: 768px) and (max-width: 1024px){
    header {
      height: 134vw;
-    width: 127vw;
+    width: 100vw;
    }
-.pictures_header{
+
+   .pictures_header{
   margin-top: 200vw;
 }
 .pic_for_header{
@@ -1011,6 +1024,15 @@ footer {
   -webkit-animation: 15s linear 0s none infinite running rot;
   animation: 15s linear 0s none infinite running rot;
 }
+
+   .picrures_header img {
+     z-index: 1;
+width: 112vw;
+margin-top: 76vw;
+margin-left: -5vw;
+-webkit-animation: 15s linear 0s none infinite running rot;
+animation: 15s linear 0s none infinite running rot;
+     }
 
 .numbers a {
   font-size: 82px;
